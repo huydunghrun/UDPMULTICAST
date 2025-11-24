@@ -74,7 +74,7 @@
 ## 🚀 3. Hình ảnh các chức năng
 
 <p align="center">
-  <img src="images/anhGiaoDien.jpg" alt="Ảnh 1" width="800"/>
+  <img src="images/anhGiaoDien.png" alt="Ảnh 1" width="800"/>
 </p>
 
 <p align="center">
@@ -82,7 +82,7 @@
 </p>
 
 <p align="center">
-  <img src="images/anhClientChat.jpg" alt="Ảnh 2" width="700"/>
+  <img src="images/anhClientChat.png" alt="Ảnh 2" width="700"/>
 </p>
 <p align="center">
   <em> Hình 2: Client chat với nhau</em>
@@ -90,14 +90,14 @@
 
 
 <p align="center">
-  <img src="images/anhLichSuChat.jpg" alt="Ảnh 3" width="500"/>
+  <img src="images/anhLichSuChat.png" alt="Ảnh 3" width="500"/>
 </p>
 <p align="center">
   <em> Hình 3: Ảnh lịch sử chat </em>
 </p>
 
 <p align="center">
-    <img src="images/anhTimKiemTinNhan.jpg" alt="Ảnh 4" width="500"/>
+    <img src="images/anhTimKiemTinNhan.png" alt="Ảnh 4" width="500"/>
 </p>
 <p align="center">
   <em> Hình 4: Ảnh Server xóa dữ liệu</em>

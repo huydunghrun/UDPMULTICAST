@@ -82,7 +82,7 @@
 </p>
 
 <p align="center">
-  <img src="images/anhClientChatServer1.jpg" alt="Ảnh 2" width="700"/>
+  <img src="images/anhClientChat.jpg" alt="Ảnh 2" width="700"/>
 </p>
 <p align="center">
   <em> Hình 2: Client chat với nhau</em>
@@ -90,26 +90,19 @@
 
 
 <p align="center">
-  <img src="images/anhLichSuChatLuuTxt.jpg" alt="Ảnh 3" width="500"/>
+  <img src="images/anhLichSuChat.jpg" alt="Ảnh 3" width="500"/>
 </p>
 <p align="center">
-  <em> Hình 3: Ảnh lịch sử chat được lưu vào file txt </em>
+  <em> Hình 3: Ảnh lịch sử chat </em>
 </p>
 
 <p align="center">
-    <img src="images/anhServerxoaDL.jpg" alt="Ảnh 4" width="500"/>
+    <img src="images/anhTimKiemTinNhan.jpg" alt="Ảnh 4" width="500"/>
 </p>
 <p align="center">
   <em> Hình 4: Ảnh Server xóa dữ liệu</em>
 </p>
 
-
-<p align="center">
-  <img src="images/anhServerngatKetNoiClient.jpg" alt="Ảnh 5" width="400"/>
-</p>
-<p align="center">
-  <em> Hình 5: Ảnh Server ngắt kết nối với CLient</em>
-</p>
 
 ## 📝 4. Hướng dẫn cài đặt và sử dụng
 

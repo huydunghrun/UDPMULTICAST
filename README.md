@@ -50,7 +50,7 @@
 - 💾 **Local History**: Lưu trữ lịch sử chat local, persistent across sessions
 
 **⚙️ Hệ thống kỹ thuật**:  
-- 🌐 **TCP Protocol**: ServerSocket và Socket với multithreading, hỗ trợ nhiều client đồng thời
+- 🌐 **UDP Protocol**: ServerSocket và Socket với multithreading, hỗ trợ nhiều client đồng thời
 - 🔄 **Message Queuing**: Hàng đợi tin nhắn offline, đảm bảo không mất dữ liệu
 - 💾 **Data Persistence**: File I/O với UTF-8 encoding, timestamp chính xác
 - 🛡️ **Error Handling**: Xử lý lỗi graceful với thông báo user-friendly
@@ -63,7 +63,7 @@
 
 - **☕ Java 8+**: Multithreading với `Thread`, `ConcurrentHashMap`, `AtomicBoolean`
 - **🎨 Java Swing**: UI components, custom rendering, event handling
-- **🌐 TCP Sockets**: `ServerSocket` (port 12345), `Socket`, `PrintWriter`, `BufferedReader`
+- **🌐 UDP Sockets**: `ServerSocket` (port 12345), `Socket`, `PrintWriter`, `BufferedReader`
 - **💾 File I/O**: UTF-8 encoding, Base64 cho file transfer, `JFileChooser`
 - **🎵 Audio API**: `javax.sound.sampled.*` cho voice recording/playback
 - **🔐 Security**: SHA-256 password hashing, serialization cho admin data
@@ -118,13 +118,10 @@
 java -version && javac -version
 
 # 2. Biên dịch
-javac UngDungChat_TCP/*.java
+javac -d bin -encoding UTF-8 gui\*.java model\*.java network\*.java utils\*.java src\*.java
 # 3. Chạy Server (bắt buộc trước)
-java UngDungChat_TCP.Server
+java -cp bin src.Main
 
-# 4. Chạy Client (terminal mới)
-java UngDungChat_TCP.Client
-```
 
 ### 🚀 Sử dụng
 **🖥️ Server**: Đăng nhập admin → Quản lý client → Gửi tin nhắn  
@@ -134,9 +131,9 @@ java UngDungChat_TCP.Client
 
 
 ## Thông tin liên hệ  
-Họ tên: Nguyễn Thị Lan Anh.  
+Họ tên: Đỗ Huy Dũng.  
 Lớp: CNTT 16-03.  
-Email: lananh.2402.nt@gmail.com.
+Email: dohuydung24@gmail.com.
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
 

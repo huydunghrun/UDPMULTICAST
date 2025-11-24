@@ -121,7 +121,7 @@ java -version && javac -version
 javac -d bin -encoding UTF-8 gui\*.java model\*.java network\*.java utils\*.java src\*.java
 # 3. Chạy Server (bắt buộc trước)
 java -cp bin src.Main
-
+```
 
 
 

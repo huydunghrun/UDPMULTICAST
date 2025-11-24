@@ -126,8 +126,7 @@ java -cp bin src.Main
 
 
 ### Sử dụng
-**Server**: Đăng nhập admin → Quản lý client → Gửi tin nhắn  
-**Client**: Nhập tên → Chọn contact → Chat với file/ảnh/voice/avatar
+**Client**: Điền tên đăng nhập và đăng nhập vào server
 
 **Tính năng**: File transfer, image sharing, voice chat, avatar system, offline messages, modern UI
 
